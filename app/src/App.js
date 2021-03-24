@@ -4,7 +4,7 @@ import {Container,Row,Col} from 'react-bootstrap';
 import '../src/App.css';
 //const link = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=df838830f58528a49a4bbf8e568da343';
 
-const link='http://api.openweathermap.org/data/2.5/weather?q='
+const link='https://api.openweathermap.org/data/2.5/weather?q='
 const key ='&appid=df838830f58528a49a4bbf8e568da343'
 let url ;
 
