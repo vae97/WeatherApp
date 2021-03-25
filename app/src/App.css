@@ -50,6 +50,26 @@
   padding-left: 20%;
 }
 
+.animationparent{
+  text-align: center;
+  background-color:rgb(11, 19, 43) ;
+  height: calc( 100vh - 50px );
+  padding-top: 0px;
+}
+.animationchild{
+  margin: auto;
+  width: 70%;
+}
+
+.textparent{
+  text-align: center;
+  padding-bottom: 0px;
+}
+.font{
+  color: white;
+  font-size: 10px;
+  margin-right: 10px;
+}
 @media screen and (min-width: 480px) {
   .heading {
     text-align: center;
@@ -60,5 +80,13 @@
   .text{
     padding-left: 40%;
     font-size: 25px;
+  }
+  .animationchild{
+    margin: auto;
+    width: 30%;
+  }
+  .font{
+    color: white;
+    font-size: 15px;
   }
 }

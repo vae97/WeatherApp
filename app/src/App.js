@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Axios from 'axios';
 import {Container,Row,Col} from 'react-bootstrap';
 import '../src/App.css';
+import Animation from '../src/Animation'
 //const link = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=df838830f58528a49a4bbf8e568da343';
 
 const link='https://api.openweathermap.org/data/2.5/weather?q='
@@ -158,8 +159,13 @@ function App() {
 
         :
 
-        <div>
-          <h1>hi</h1>
+        <div className="animationparent">
+          <div className="animationchild">
+            <Animation></Animation>
+          </div>
+          <div className="textparent">
+            <h1 className="font">Designed and Developed by Akash Ekanayaka</h1>
+          </div>
         </div>
       }
 
